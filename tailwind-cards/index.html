@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body >
+  <div class="text-zinc-700 ">
+    <nav class="flex items-center justify-center gap-16 my-4">
+      <div name="logo" class="flex items-center gap-2">
+        <img src="/assets/carrinho-de-compras.png" alt="logo" class="w-10"> <h1 class="text-2xl font-bold text-teal-600">PixelMarket</h1>
+      </div>
+      <select class="font-medium" name="select" value="categorias">
+        <option value="Categorias"  selected>Categorias</option>
+      </select>
+      <a href="" class="font-medium">Ofertas</a>
+      <a href="" class="font-medium">Novidades</a>
+      <a href="" class="font-medium">Delivery</a>
+
+      <div  name="account-search" class="flex items-center gap-5">
+        <div name="input-img"class="inline-block items-center relative">
+          <img src="/assets/search_FILL0_wght400_GRAD0_opsz24.png" alt="search" class="absolute translate-x-56"><input type="text" placeholder="Pesquisar Produtos" class="w-64 px-4 bg-zinc-50 border-1 rounded-3xl"> 
+        </div>
+        <div class="flex items-center">
+          <img src="/assets/person_FILL0_wght400_GRAD0_opsz24.png" alt="account"> <a href="" class="font-semibold">Conta</a> 
+        </div>
+        <div class="flex items-center">
+          <img src="/assets/shopping_cart_FILL0_wght400_GRAD0_opsz24.png" alt="car-shop"> <a href=""
+          class="font-semibold">Carrinho</a> 
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div name="container" class="">
+    <div class="relative">
+      
+        <div class="absolute translate-x-24 translate-y-12">
+          <h1 class="text-2xl font-bold text-gray-800 ">Ganhe até 50% de Desconto em <br> HeadPhones selecionados</h1>
+          <button class="bg-teal-600 text-zinc-100 rounded-xl p-2 mt-4 font-bold">Compre Agora</button>  
+        </div>
+      <div class="flex justify-center">
+        <img src="/assets/headphones.png" alt="headphones">
+      </div>  
+    </div>
+
+    <div name="filters" class="flex items-center justify-center gap-96 mt-8">
+      <div class="selects">
+        <select name="select" value="Headphones">
+          <option value="Headphones" selected>Headphones</option>
+        </select>
+  
+        <select name="select" value="Preço">
+          <option value="Preço" selected>Preço</option>
+        </select>
+  
+        <select name="select" value="Review">
+          <option value="review" selected>Review</option>
+        </select>
+  
+        <select name="select" value="cor">
+          <option value="cor" selected>Cor</option>
+        </select>
+  
+        <select name="select" value="material">
+          <option value="material" selected>Material</option>
+        </select>
+  
+        <select name="select" value="ofertas">
+          <option value="ofertas" selected>Ofertas</option>
+        </select>  
+      </div>
+
+      <button>Aplicar Filtros</button>
+
+
+    </div>
+
+    <h1>Aqui estão alguns Headphones para você!</h1>
+    <div name="items-sales" class="">
+      <div name="card-sales" class="">
+        <img src="/assets/airpods-max-select-pink-202011.png" alt="airpods">
+        <h1>AirPods Max</h1>
+        <h2>R$ 499,00</h2>
+        <p>AirPods Max combinam áudio de alta fidelidade e cancelamento de ruído líder do setor para oferecer uma experiência sonora sem igual</p>
+        <img src="/assets/avaliacao.png" alt="estrelas">
+        <div name="addCar-fav" class="">
+          <button>Adicione ao Carrinho</button>
+          <img src="/assets/favorite_FILL0_wght400_GRAD0_opsz24.png" alt="favorite">  
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
